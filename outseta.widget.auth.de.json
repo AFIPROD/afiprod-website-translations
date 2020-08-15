@@ -35,157 +35,157 @@
     }
   },
   "Errors": {
-    "DiscountCodeNotFound": "Discount code not found.",
-    "Introduction": "Please correct the following errors:",
-    "discountExpired": "This discount code has expired.",
-    "discountInactive": "This discount code is no longer active.",
-    "discountNotEligible": "This discount code is no longer eligible for redemption.",
-    "duplicate": "An account for this email address already exists",
-    "email": "This is not a valid email address",
-    "required": "This is a required field"
+    "DiscountCodeNotFound": "Rabatt-Code nicht gefunden.",
+    "Introduction": "Bitte korrigieren Sie die folgenden Fehler:",
+    "discountExpired": "Dieser Rabattcode ist abgelaufen.",
+    "discountInactive": "Dieser Rabattcode ist nicht mehr aktiv.",
+    "discountNotEligible": "Dieser Rabattcode kann nicht mehr eingelöst werden.",
+    "duplicate": "Ein Konto für diese E-Mail-Adresse existiert bereits",
+    "email": "Dies ist keine gültige E-Mail-Adresse",
+    "required": "Dies ist ein Pflichtfeld."
   },
   "Account": {
     "Labels": {
-      "AddressLine1": "Address Line 1",
-      "AddressLine2": "Address Line 2",
-      "BillingAddress": "Billing Address",
-      "City": "City",
-      "CompanyName": "Company Name",
-      "Country": "Country",
-      "FirstName": "First Name",
-      "General": "GENERAL",
-      "LastName": "Last Name",
-      "MailingAddress": "Mailing Address",
+      "AddressLine1": "Adresse Zeile 1",
+      "AddressLine2": "Adresse Zeile 2",
+      "BillingAddress": "Rechnungsadresse",
+      "City": "Stadt",
+      "CompanyName": "Name des Unternehmens",
+      "Country": "Land",
+      "FirstName": "Vorname",
+      "General": "ALLGEMEINES",
+      "LastName": "Nachname",
+      "MailingAddress": "Postanschrift",
       "Name": "Name",
-      "PostalCode": "Postal Code",
-      "SameAsBillingAddress": "Same as Billing Address",
-      "SameAsMailingAddress": "Same as Mailing Address",
-      "State": "State"
+      "PostalCode": "Postleitzahl",
+      "SameAsBillingAddress": "Gleich wie Rechnungsadresse",
+      "SameAsMailingAddress": "Gleich wie Postanschrift",
+      "State": "Bundesland"
     }
   },
   "Login": {
     "Actions": {
-      "CreateAnAccount": "Create an account",
-      "ForgotPassword": "Forgot password?",
-      "Login": "Login"
+      "CreateAnAccount": "Ein Konto erstellen",
+      "ForgotPassword": "Haben Sie Ihr Passwort vergessen?",
+      "Login": "Anmelden"
     },
     "Errors": {
-      "InvalidEmailAddressOrPassword": "Invalid email address or password.",
-      "WeAreUnableToAuthenticateYouToThisAccountPleaseContactSupport": "We are unable to authenticate you to this account, please contact support.",
-      "WeAreUnableToAuthenticateYouAtThisTimePleaseTryAgainLater": "We are unable to authenticate you at this time, please try again later."
+      "InvalidEmailAddressOrPassword": "Ungültige E-Mail-Adresse oder Passwort.",
+      "WeAreUnableToAuthenticateYouToThisAccountPleaseContactSupport": "Wir sind nicht in der Lage, Sie für dieses Konto zu authentifizieren, wenden Sie sich bitte an den Support.",
+      "WeAreUnableToAuthenticateYouAtThisTimePleaseTryAgainLater": "Wir können Sie im Moment nicht authentifizieren, bitte versuchen Sie es später noch einmal."
     },
     "Labels": {
-      "Login": "Login"
+      "Login": "Anmeldung"
     },
     "Text": {
-      "DontHaveAnAccountYet": "Don't have an account yet?"
+      "DontHaveAnAccountYet": "Sie haben noch kein Konto?"
     }
   },
   "LoginOutcomes": {
     "ActionRequired": {
       "Labels": {
-        "ActionRequired": "Action Required"
+        "ActionRequired": "Erforderliche Aktion"
       },
       "Text": {
-        "Introduction": "Uh-oh! Your account is either past due or needs to be upgraded. <strong>{{ Name }}</strong> needs to login to get this straightened out, then you'll be able to get back in."
+        "Introduction": "Oh-oh! Ihr Konto ist entweder abgelaufen oder muss hochgestuft werden. <strong>{{{{ Name }}}</strong> muss sich anmelden, um dies zu klären, dann können Sie wieder anmelden."
       }
     },
     "NoSubscriptionFound": {
       "Labels": {
-        "NoSubscriptionFound": "No Subscription Found"
+        "NoSubscriptionFound": "Keine Abonnements gefunden"
       },
       "Text": {
-        "Introduction": "No subscriptions found for this user! Please contact support for assistance."
+        "Introduction": "Keine Abonnements für diesen Benutzer gefunden! Bitte kontaktieren Sie den Support für Hilfe."
       }
     },
     "SelectAccount": {
       "Labels": {
-        "SelectAccount": "Select Account"
+        "SelectAccount": "Konto auswählen"
       },
       "Text": {
-        "Introduction": "Please select the account you wish to login to:"
+        "Introduction": "Bitte wählen Sie das Konto aus, in das Sie sich einloggen möchten:"
       }
     },
     "UpdatePaymentInformation": {
       "Labels": {
-        "UpdatePaymentInformation": "Update Payment Information"
+        "UpdatePaymentInformation": "Zahlungsinformationen aktualisieren"
       },
       "Text": {
-        "Introduction": "Please enter payment information for your account."
+        "Introduction": "Bitte geben Sie die Zahlungsinformationen für Ihr Konto ein."
       }
     }
   },
   "Password": {
     "ForgotPassword": {
       "Actions": {
-        "BackToSignIn": "Back to Sign in",
-        "SendResetEmail": "Send Reset Email"
+        "BackToSignIn": "Zurück zur Anmeldung",
+        "SendResetEmail": "E-Mail senden"
       },
       "Errors": {
-        "default": "We are unable to process your request at this time, please try again later.",
-        "forgot_error": "We are unable to process your request for a new password at this time, please try again later.",
-        "invalid_token": "Your reset request has expired, please re-enter your email address again."
+        "default": "Im Moment können wir Ihre Anfrage nicht bearbeiten, bitte versuchen Sie es später noch einmal.",
+        "forgot_error": "Wir können Ihren Antrag auf ein neues Passwort im Moment nicht bearbeiten, bitte versuchen Sie es später noch einmal.",
+        "invalid_token": "Ihre Anfrage zum Zurücksetzen des Passworts ist abgelaufen, bitte geben Sie Ihre E-Mail-Adresse erneut ein."
       },
       "Labels": {
-        "ForgotPassword": "Forgot Password"
+        "ForgotPassword": "Passwort vergessen"
       },
       "Text": {
-        "Confirmation": "Email sent! Check your inbox.",
-        "Introduction": "Can't get in? Enter your email below and we'll send you an email to get this sorted out."
+        "Confirmation": "E-Mail gesendet! Überprüfen Sie Ihren Posteingang.",
+        "Introduction": "Sie kommen nicht rein? Geben Sie unten Ihre E-Mail-Adresse ein und wir schicken Ihnen eine E-Mail, um dies zu klären."
       }
     },
     "ResetPassword": {
       "Labels": {
-        "Reset": "Reset",
-        "Set": "Set"
+        "Reset": "Zurücksetzen",
+        "Set": "Speichern"
       },
       "Text": {
-        "ResetIntroduction": "Please enter a new password.",
-        "SetIntroduction": "Please enter a password to complete your registration."
+        "ResetIntroduction": "Bitte geben Sie ein neues Passwort ein.",
+        "SetIntroduction": "Bitte geben Sie ein Passwort ein, um Ihre Registrierung abzuschließen."
       }
     }
   },
   "Plan": {
     "Labels": {
-      "AddOns": "Add-Ons",
-      "Annual": "Annual",
-      "BillingCycle": "Billing Cycle",
-      "Monthly": "Monthly",
+      "AddOns": "Erweiterungen",
+      "Annual": "jährlich",
+      "BillingCycle": "Abrechnungszeitraum",
+      "Monthly": "monatlich",
       "Name": "Name",
-      "NotApplicable": "N/A",
-      "PlanQuantity": "Plan Quantity",
-      "Price": "Price",
-      "Quantity": "Quantity",
-      "Setup": "Setup"
+      "NotApplicable": "nicht verfügbar",
+      "PlanQuantity": "Umfang des Abos",
+      "Price": "Preis",
+      "Quantity": "Anzahl",
+      "Setup": "Einrichtungsgebühr"
     }
   },
   "PlanChangeSummary": {
     "Labels": {
-      "Amount": "Amount",
-      "ChangeSummary": "Change Summary",
-      "Description": "Description",
-      "Tax": "Tax",
-      "Total": "Total"
+      "Amount": "Menge",
+      "ChangeSummary": "Zusammenfassung ändern",
+      "Description": "Beschreibung",
+      "Tax": "Steuer",
+      "Total": "Gesamt"
     }
   },
   "PlanSelect": {
     "Errors": {
-      "subscription_expired": "Your subscription has expired, please chose a new plan to continue.",
-      "subscription_planupgraderequired": "You must upgrade your plan."
+      "subscription_expired": "Ihr Abonnement ist abgelaufen, bitte wählen Sie ein neues Abos, um fortzufahren.",
+      "subscription_planupgraderequired": "Sie müssen Ihr Abo aufstocken."
     },
     "Labels": {
-      "Current": "Current",
-      "DayFreeTrial": "-day free trial",
-      "Select": "Select",
-      "SelectThisPlan": "Select this Plan"
+      "Current": "Aktuell",
+      "DayFreeTrial": "-Tag kostenlose Testversion",
+      "Select": "auswählen",
+      "SelectThisPlan": "Dieses Abo auswählen"
     }
   },
   "PlanSelectOptions": {
     "Actions": {
-      "ChangePlan": "Change Plan"
+      "ChangePlan": "Abo ändern"
     },
     "Errors": {
-      "subscription_quantityupgraderequired": "You must increase your plan quantity to {{ NewQuantity }} {{ UnitOfMeasure }} or higher."
+      "subscription_quantityupgraderequired": "Sie müssen Ihre Abo-Menge auf {{{NeueMenge }}  {{{UnitOfMeasure }} erhöhen oder höher."
     },
     "Labels": {
       "Plan": "Plan"
@@ -193,29 +193,29 @@
   },
   "Registration": {
     "Actions": {
-      "AddDiscountCode": "Add a Discount Code",
-      "ChangeOptions": "Change Options",
-      "ChangePlan": "Change Plan",
-      "GetStarted": "Get Started",
-      "NextPayment": "Next: Payment",
-      "Register": "Register"
+      "AddDiscountCode": "Rabatt-Code hinzufügen",
+      "ChangeOptions": "Optionen anpassen",
+      "ChangePlan": "Abo ändern",
+      "GetStarted": "loslegn",
+      "NextPayment": "Nächster Schritt: Zahlungsinformationen",
+      "Register": "Registrieren"
     },
     "Labels": {
-      "Payment": "Payment",
-      "Plan": "Plan"
+      "Payment": "Bezahlung",
+      "Plan": "Abo"
     },
     "Menu": {
-      "AccountInformation": "Account Information",
-      "ChooseOptions": "Choose Options",
-      "Payment": "Payment",
-      "SelectPlan": "Select Plan"
+      "AccountInformation": "Konto Information",
+      "ChooseOptions": "Wählen Sie Ihre Optionen.",
+      "Payment": "Zahlung",
+      "SelectPlan": "Abo auswählen"
     },
     "Text": {
-      "AlmostDone": "Almost Done!",
-      "CompletionMessage": "You have been registered!",
-      "ConfirmationMessage": "We have sent an email to <strong>{{ Email }}</strong>.<br/>Please click the link inside to complete the registration process.",
-      "ContactSupportMessage": "Please contact <a href='mailto:{{ SupportEmail }}'>{{ SupportEmail }}</a> with any questions.",
-      "ThankYou": "Thank You!"
+      "AlmostDone": "Fast fertig!",
+      "CompletionMessage": "Sie sind registriert!",
+      "ConfirmationMessage": "Wir haben eine E-Mail an <strong>{{{ E-Mail }}}</strong> gesendet. <br/>Bitte klicken Sie auf den Link in der E-Mail, um den Registrierungsprozess abzuschließen.",
+      "ContactSupportMessage": "Bei Fragen wenden Sie sich bitte an <a href='mailto:{{{{ SupportEmail }}}'>{{{{{ SupportEmail }}}</a>.",
+      "ThankYou": "Herzlichen Dank!"
     }
   }
 }
