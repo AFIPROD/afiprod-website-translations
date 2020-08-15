@@ -1,0 +1,188 @@
+{
+  "Common": {
+    "Actions": {
+      "Back": "Back",
+      "Cancel": "Cancel",
+      "CancelSubscription": "Cancel Subscription",
+      "ChangeOptions": "Change Options",
+      "ChangePassword": "Change Password",
+      "ChangePlan": "Change Plan",
+      "Update": "Update"
+    },
+    "Labels": {
+      "Email": "Email",
+      "Free": "free",
+      "Month": "month",
+      "Months": "months",
+      "Per": "per",
+      "Save": "save",
+      "SetupFee": "Setup Fee",
+      "Year": "year",
+      "Years": "years"
+    }
+  },
+  "Errors": {
+    "AccessDenied": "Access Denied",
+    "AccessDeniedMessage": "We're sorry, only the primary account contact may access that functionality.",
+    "Introduction": "Please correct the following errors:",
+    "currentPasswordMismatch": "The current password does not match.",
+    "duplicate": "An account for this email address already exists",
+    "email": "This is not a valid email address",
+    "required": "This is a required field"
+  },
+  "Menu": {
+    "Profile": "Profile",
+    "Account": "Account",
+    "TeamMembers": "Team Members",
+    "Plan": "Plan",
+    "Billing": "Billing"
+  },
+  "Account": {
+    "Labels": {
+      "AddressLine1": "Address Line 1",
+      "AddressLine2": "Address Line 2",
+      "BillingAddress": "Billing Address",
+      "City": "City",
+      "Country": "Country",
+      "MailingAddress": "Mailing Address",
+      "Name": "Name",
+      "PostalCode": "Postal Code",
+      "SameAsBillingAddress": "Same as Billing Address",
+      "State": "State"
+    },
+    "Text": {
+      "UpdateConfirmation": "Your account information has been updated."
+    }
+  },
+  "Billing": {
+    "Actions": {
+      "Change": "Change",
+      "RemoveCard": "Remove Card"
+    },
+    "Labels": {
+      "EndingIn": "ending in",
+      "Expires": "Expires",
+      "NameOnCard": "Name on Card"
+    },
+    "Text": {
+      "RemoveConfirmation": "Are you sure you want to remove this card?",
+      "UpdateConfirmation": "Your payment information has been updated."
+    }
+  },
+  "CancelSubscription": {
+    "Labels": {
+      "TooExpensive": "Too expensive",
+      "LacksFeatures": "Lacks features",
+      "TooHardToUse": "Too hard to use",
+      "NoLongerNecessary": "No longer necessary",
+      "PoorSupport": "Poor support",
+      "Other": "Other",
+      "OtherComments": "Other comments"
+    },
+    "Text": {
+      "ConfirmationMessage": "Your account will be closed on",
+      "Introduction": "Please tell us more about why you are leaving:"
+    }
+  },
+  "ChangePassword": {
+    "Labels": {
+      "CurrentPassword": "Current Password",
+      "NewPassword": "New Password",
+      "ConfirmPassword": "Confirm Password"
+    },
+    "Text": {
+      "ConfirmationMessage": "Your password has been reset."
+    }
+  },
+  "ConfirmPlanChange": {
+    "Labels": {
+      "ConfirmPlanChange": "Confirm Plan Change",
+      "EnterPaymentInformation": "Enter Payment Information"
+    }
+  },
+  "Plan": {
+    "Actions": {
+      "ChooseOptions": "Choose Options",
+      "ReopenAccount": "Reopen account",
+      "Review": "Review"
+    },
+    "Labels": {
+      "AddOns": "Add-Ons",
+      "Annual": "Annual",
+      "BillingCycle": "Billing Cycle",
+      "Monthly": "Monthly",
+      "Name": "Name",
+      "NotApplicable": "N/A",
+      "PlanQuantity": "Plan Quantity",
+      "Price": "Price",
+      "Quantity": "Quantity",
+      "Setup": "Setup"
+    },
+    "Text": {
+      "ChangeConfirmation": "Your plan has been changed.",
+      "DowngradeMessage": "Your plan is scheduled to downgrade to <strong>{{ PlanName }}</strong> at the end of the current billing cycle",
+      "EndingMessage": "Your plan is scheduled to end on",
+      "NoCurrentSubscription": "Your prior subscription has expired, please select a new plan."
+    }
+  },
+  "PlanChangeSummary": {
+    "Labels": {
+      "Amount": "Amount",
+      "ChangeSummary": "Change Summary",
+      "Description": "Description",
+      "Tax": "Tax",
+      "Total": "Total"
+    }
+  },
+  "PlanReopen": {
+    "Labels": {
+      "ReopenAccount": "Reopen Account"
+    },
+    "Text": {
+      "ConfirmationMessage": "Your account has been reopened.",
+      "Introduction": "Do you want to reopen your account?"
+    }
+  },
+  "PlanRevert": {
+    "Actions": {
+      "CancelRenewal": "Cancel Renewal"
+    },
+    "Text": {
+      "ConfirmationMessage": "Your renewal subscription has been canceled.",
+      "Introduction": "Do you want to cancel your renewal plan ({{ RenewalPlanName }}) and continue with your current plan ({{ CurrentPlanName }})?"
+    }
+  },
+  "PlanSelect": {
+    "Labels": {
+      "Current": "Current",
+      "DayFreeTrial": "-day free trial",
+      "Select": "Select",
+      "SelectThisPlan": "Select this Plan"
+    }
+  },
+  "Profile": {
+    "Labels": {
+      "FirstName": "First Name",
+      "LastName": "Last Name"
+    },
+    "Text": {
+      "ConfirmationMessage": "Your profile has been updated."
+    }
+  },
+  "Team": {
+    "Actions": {
+      "AddTeamMember": "Add team member",
+      "RemoveFromTeam": "Remove from team",
+      "RemoveTeamMember": "Remove Team Member"
+    },
+    "Labels": {
+      "AccountOwner": "Account Owner",
+      "TeamMembers": "Team Members"
+    },
+    "Text": {
+      "AddedConfirmationMessage": "{{ Email }} has been added to your team.",
+      "RemoveConfirmationMessage": "Are you sure you want to remove <strong>{{ Email }}</strong> from your team?",
+      "RemovedConfirmationMessage": "{{ Email }} has been removed from your team."
+    }
+  }
+}
