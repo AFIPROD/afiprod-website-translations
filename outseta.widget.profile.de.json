@@ -1,0 +1,188 @@
+{
+  "Common": {
+    "Actions": {
+      "Back": "Zurück",
+      "Cancel": "Abbrechen",
+      "CancelSubscription": "Abonnement kündigen",
+      "ChangeOptions": "Optionen ändern",
+      "ChangePassword": "Passwort ändern",
+      "ChangePlan": "Abo ändern",
+      "Update": "Aktualisieren"
+    },
+    "Labels": {
+      "Email": "Email",
+      "Free": "kostenlos",
+      "Month": "Monat",
+      "Months": "Monate",
+      "Per": "per",
+      "Save": "Speichern",
+      "SetupFee": "Einrichtungsgebühr",
+      "Year": "Jahr",
+      "Years": "Jahre"
+    }
+  },
+  "Errors": {
+    "AccessDenied": "Zugang verweigert",
+    "AccessDeniedMessage": "Es tut uns leid, nur der primäre Kontokontakt kann auf diese Funktion zugreifen.",
+    "Introduction": "Bitte korrigieren Sie die folgenden Fehler:",
+    "currentPasswordMismatch": "Das aktuelle Passwort stimmt nicht überein.",
+    "duplicate": "Ein Konto mit dieser E-Mail-Adresse existiert bereits",
+    "email": "Dies ist keine gültige E-Mail-Adresse.",
+    "required": "Dies ist ein Pflichtfeld."
+  },
+  "Menu": {
+    "Profile": "Profil",
+    "Account": "konto",
+    "TeamMembers": "Team Mitglieder",
+    "Plan": "Abo",
+    "Billing": "Rechnungsstellung"
+  },
+  "Account": {
+    "Labels": {
+      "AddressLine1": "Adresse Zeile 1",
+      "AddressLine2": "Adresse Zeile 2",
+      "BillingAddress": "Rechnungsadresse",
+      "City": "Stadt",
+      "Country": "Land",
+      "MailingAddress": "Postanschrift",
+      "Name": "Name",
+      "PostalCode": "Postleitzahl",
+      "SameAsBillingAddress": "Gleich wie Rechnungsadresse",
+      "State": "Bundesland"
+    },
+    "Text": {
+      "UpdateConfirmation": "Ihre Kontoinformationen wurden aktualisiert."
+    }
+  },
+  "Billing": {
+    "Actions": {
+      "Change": "Anpassen",
+      "RemoveCard": "Karte entfernen"
+    },
+    "Labels": {
+      "EndingIn": "endend in",
+      "Expires": "Läuft ab",
+      "NameOnCard": "Name auf der Karte"
+    },
+    "Text": {
+      "RemoveConfirmation": "Sind Sie sicher, dass Sie diese Karte entfernen möchten?",
+      "UpdateConfirmation": "Ihre Zahlungsinformationen wurden aktualisiert."
+    }
+  },
+  "CancelSubscription": {
+    "Labels": {
+      "TooExpensive": "Zu teuer",
+      "LacksFeatures": "Fehlende Funktionen",
+      "TooHardToUse": "Zu schwer zu bedienen",
+      "NoLongerNecessary": "Nicht mehr notwendig",
+      "PoorSupport": "Schlechte Unterstützung",
+      "Other": "Sonstiges",
+      "OtherComments": "Andere Kommentare"
+    },
+    "Text": {
+      "ConfirmationMessage": "Ihr Konto wird geschlossen am",
+      "Introduction": "Bitte sagen Sie uns mehr darüber, warum Sie uns verlassen:"
+    }
+  },
+  "ChangePassword": {
+    "Labels": {
+      "CurrentPassword": "Aktuelles Passwort",
+      "NewPassword": "Neues Passwort",
+      "ConfirmPassword": "Passwort bestätigen"
+    },
+    "Text": {
+      "ConfirmationMessage": "Ihr Passwort wurde zurückgesetzt."
+    }
+  },
+  "ConfirmPlanChange": {
+    "Labels": {
+      "ConfirmPlanChange": "Aboänderung bestätigen",
+      "EnterPaymentInformation": "Zahlungsinformationen eingeben"
+    }
+  },
+  "Plan": {
+    "Actions": {
+      "ChooseOptions": "Wählen Sie Optionen",
+      "ReopenAccount": "Konto neu eröffnen",
+      "Review": "Rückblick"
+    },
+    "Labels": {
+      "AddOns": "Erweiterungen",
+      "Annual": "Jährlich",
+      "BillingCycle": "Abrechnungszyklus",
+      "Monthly": "Monatlich",
+      "Name": "Name",
+      "NotApplicable": "nicht verfügbar",
+      "PlanQuantity": "Umfang des Abos",
+      "Price": "Preis",
+      "Quantity": "Anzahl",
+      "Setup": "Einrichtungsgebühr"
+    },
+    "Text": {
+      "ChangeConfirmation": "Ihr Abo wurde geändert.",
+      "DowngradeMessage": "Ihr Abo soll am Ende des aktuellen Abrechnungszyklus auf <stark>{{{{PlanName }}}</stark> zurückgestuft werden.",
+      "EndingMessage": "Ihr Abo endet planmäßig am",
+      "NoCurrentSubscription": "Ihr vorheriges Abonnement ist abgelaufen, bitte wählen Sie ein neues Abo aus."
+    }
+  },
+  "PlanChangeSummary": {
+    "Labels": {
+      "Amount": "Betrag",
+      "ChangeSummary": "Zusammenfassung ändern",
+      "Description": "Beschreibung",
+      "Tax": "Steuer",
+      "Total": "Gesamt"
+    }
+  },
+  "PlanReopen": {
+    "Labels": {
+      "ReopenAccount": "Konto neu eröffnen"
+    },
+    "Text": {
+      "ConfirmationMessage": "Ihr Konto wurde wiedereröffnet.",
+      "Introduction": "Möchten Sie Ihr Konto wieder eröffnen?"
+    }
+  },
+  "PlanRevert": {
+    "Actions": {
+      "CancelRenewal": "Vertragsverlängerung abbrechen"
+    },
+    "Text": {
+      "ConfirmationMessage": "Your renewal subscription has been canceled.",
+      "Introduction": "Do you want to cancel your renewal plan ({{ RenewalPlanName }}) and continue with your current plan ({{ CurrentPlanName }})?"
+    }
+  },
+  "PlanSelect": {
+    "Labels": {
+      "Current": "Current",
+      "DayFreeTrial": "-day free trial",
+      "Select": "Select",
+      "SelectThisPlan": "Select this Plan"
+    }
+  },
+  "Profile": {
+    "Labels": {
+      "FirstName": "First Name",
+      "LastName": "Last Name"
+    },
+    "Text": {
+      "ConfirmationMessage": "Your profile has been updated."
+    }
+  },
+  "Team": {
+    "Actions": {
+      "AddTeamMember": "Add team member",
+      "RemoveFromTeam": "Remove from team",
+      "RemoveTeamMember": "Remove Team Member"
+    },
+    "Labels": {
+      "AccountOwner": "Account Owner",
+      "TeamMembers": "Team Members"
+    },
+    "Text": {
+      "AddedConfirmationMessage": "{{ Email }} has been added to your team.",
+      "RemoveConfirmationMessage": "Are you sure you want to remove <strong>{{ Email }}</strong> from your team?",
+      "RemovedConfirmationMessage": "{{ Email }} has been removed from your team."
+    }
+  }
+}
